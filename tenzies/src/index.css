@@ -9,6 +9,7 @@ body {
 }
 
 .container-for-main {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +84,7 @@ main {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
-@media (max-width: 420px) {
+@media (max-width: 415px) {
   main {
     width: 95%; /* Adjust the width value as needed */
   }
